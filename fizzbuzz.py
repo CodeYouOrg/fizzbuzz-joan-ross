@@ -6,12 +6,12 @@
 def fb_challenge(s):
     for number in range(1,101):
         if number % 3 == 0 :
-            str.replace(number, 'Fizz')
+            return ('Fizz')
         elif number % 5 == 0 :
-            str.replace(number, 'Buzz')
+            return('Buzz')
         elif number % 3 == 0 and number % 5 == 0:
-            str.replace(number, 'FizzBuzz')
+            return('FizzBuzz')
             print(s)
 
-            return s
+    return s
 
